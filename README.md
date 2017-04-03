@@ -1,4 +1,6 @@
-# ReactNativeTS
+# ReactNative Typescript
+
+react-native + typescript + redux + react-native-navigation
 
 **⚠️ Warning: this repository is not up-to-date with the latest Typescript and React-native settings. Help is appreciated.**
 
@@ -61,3 +63,4 @@ yarn run android
 [dependencies-url]: https://david-dm.org/mrpatiwi/ReactNativeTS
 [dev-dependencies-image]: https://david-dm.org/mrpatiwi/ReactNativeTS/dev-status.svg
 [dev-dependencies-url]: https://david-dm.org/mrpatiwi/ReactNativeTS#info=devDependencies
+

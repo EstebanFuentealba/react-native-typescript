@@ -1,0 +1,39 @@
+{
+  "name": "react-native-typescript",
+  "version": "0.0.3",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start --transformer node_modules/react-native-sm-transformer --skipflow",
+    "android": "adb reverse tcp:8081 tcp:8081 && node node_modules/react-native/local-cli/cli.js run-android",
+    "ios": "node node_modules/react-native/local-cli/cli.js run-ios",
+    "prebuild": "node node_modules/.bin/rimraf build",
+    "build": "tsc",
+    "preinstall": "rm -rf typings",
+    "postinstall": "remotedev-debugger --hostname localhost --port 8000 --injectserver"
+  },
+  "dependencies": {
+    "immutable": "^3.8.1",
+    "react": "^15.4.2",
+    "react-native": "0.42",
+    "react-native-button": "^1.8.2",
+    "react-native-config": "^0.3.1",
+    "react-native-fcm": "^6.2.0",
+    "react-native-navigation": "^2.0.0-experimental.256",
+    "react-native-vector-icons": "^4.0.0",
+    "react-redux": "^5.0.3",
+    "redux": "^3.6.0",
+    "redux-immutable-state-invariant": "^2.0.0",
+    "redux-logger": "^3.0.1",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "react-native-debugger-open": "^0.3.3",
+    "react-native-sm-transformer": "^1.0.2",
+    "remote-redux-devtools": "^0.5.7",
+    "remote-redux-devtools-on-debugger": "^0.7.0",
+    "rimraf": "^2.6.0",
+    "tslint": "^4.4.2",
+    "typescript": "^2.1.5",
+    "typings": "^2.1.0"
+  }
+}

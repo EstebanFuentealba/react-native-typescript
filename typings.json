@@ -1,0 +1,15 @@
+{
+  "name": "ReactNativeTS",
+  "dependencies": {
+    "immutable": "registry:npm/immutable#3.7.6+20160411060006",
+    "react": "registry:npm/react#15.0.1+20170104200836",
+    "react-native": "registry:dt/react-native#0.37.0+20170123203653",
+    "react-redux": "registry:npm/react-redux#4.4.0+20160614222153",
+    "redux-thunk": "registry:npm/redux-thunk#2.0.0+20160525185520"
+  },
+  "globalDependencies": {
+    "redux": "registry:dt/redux#3.5.2+20160703092728",
+    "redux-thunk": "registry:dt/redux-thunk#2.1.0+20160703120921",
+    "remote-redux-devtools": "registry:dt/remote-redux-devtools#0.3.2+20161005184000"
+  }
+}
